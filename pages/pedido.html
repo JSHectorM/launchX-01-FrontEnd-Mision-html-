@@ -7,16 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <title>Pasteleria Jasmín</title>
 </head>
 
 <body>
-
+    
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">
-            <img src="assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            <img src="../assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
             Jasmín
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -55,35 +55,34 @@
         </div>
     </nav>
     <!-- navbar -->
-    
-    <div class="jumbotron m-3">
-        <h1 class="display-3 text-center">
-            Pastelería Jasmín
-        </h1>
-        <p class="lead">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores amet quod maxime? 
-            Praesentium eos, minima, ipsa obcaecati unde voluptas excepturi quibusdam voluptatem 
-            vitae facilis necessitatibus culpa, illum doloribus! Praesentium, autem!. Lorem ipsum 
-            dolor sit amet consectetur adipisicing elit. Eligendi facilis totam labore reprehenderit 
-            optio! Natus officia accusamus dolores facilis nulla illum. Quaerat voluptatem obcaecati,
-             repellat aperiam in ipsam at nulla!
-            Eaque officia repellat maiores possimus nulla temporibus, distinctio, voluptate quos 
-            recusandae qui quas amet eos, dolores cupiditate quibusdam. Iure distinctio repudiandae
-             tempore incidunt reprehenderit? Veritatis optio temporibus laboriosam excepturi enim.
-        </p>
-        <hr class="my-4">
-        <p>
-            <div class="text-center">
-                <img src="assets/img/pastel.png" class="img-fluid rounded" alt="">
-            </div>
-        </p>
-        <a class="btn btn-outline-secondary btn-lg btn-block" href="pages/pedido.html" role="button">
-            Pide tu pastel aquí
-        </a>
+
+    <!-- container -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Formulario</h1>
+            <p class="lead">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </p>
+        </div>
     </div>
+    <!-- container -->
 
-
-<!-- footer -->
+    <!-- footer -->
     <footer class="text-center text-white" style="background-color: #9AA2E6;">
         <div class="container p-4"></div>
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
@@ -98,7 +97,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
-<!-- footer -->
+    <!-- footer -->
 </body>
 
 </html>
